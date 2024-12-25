@@ -1,0 +1,9 @@
+.ag-theme-quartz .ag-cell-value {
+  font-weight: normal !important;
+}
+
+.modal-footer {
+  display: "flex";
+  flex-direction: "row";
+  justify-content: "space-between";
+}

@@ -1,0 +1,44 @@
+.headerMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logo{
+  width: 50px;
+}
+
+.ant-btn-primary{
+  /* background-color: #4096ff; */
+}
+
+.ant-layout-header{
+  padding: 0px  !important;
+  
+}
+
+.btn-profile{
+  width: '50px';
+  height: '50px';
+  border-radius: '50%'; 
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  background: 'green';
+  border: 'none';
+  color: 'white'; 
+}
+
+@media screen and (max-width:500px){
+  .headerMenu{
+    display: none;
+  }
+}
+
+@media screen and (min-width:500px){
+  .menuIcon{
+    display: none;
+  }
+}
+
+

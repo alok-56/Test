@@ -1,0 +1,99 @@
+.demo-logo{
+    padding:"100px"
+}
+
+.client-details{
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+}
+
+.prime-vendor-name{
+  margin-right: 0px;
+}
+
+.inside-name{
+  margin-left: 20px;
+}
+
+.client-details h1{
+  font-size: 12px;
+
+}
+
+.ant-menu-item-selected{
+  /* background-color: #1971e6 !important;  */
+}
+
+/* CSS code for mobile devices */
+@media only screen and (max-width: 767px) {
+    /* Add your mobile-specific CSS styles here */
+    /* For example: */
+    .layout {
+      padding: 10px;
+    }
+    
+    .ant-modal-body {
+      height: 300px;
+      overflow: auto;
+    }
+    
+    .ant-modal-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .ant-modal-footer button {
+      margin-top: 10px;
+    }
+    .ant-menu-item-selected{
+      /* background-color: #1971e6 !important;  */
+    }
+  }
+  
+  /* CSS code for tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Add your tablet-specific CSS styles here */
+    /* For example: */
+    .layout {
+      padding: 20px;
+    }
+    
+    .ant-modal-body {
+      height: 400px;
+      overflow: auto;
+    }
+    
+    .ant-modal-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .ant-modal-footer button {
+      margin-top: 10px;
+    }
+    .ant-menu-item-selected{
+      /* background-color: #1971e6 !important;  */
+    }
+  }
+  
+  
+  @media screen and (max-width: 499px) {
+    .table .ant-table-thead > tr > th,
+    .table .ant-table-tbody > tr > td {
+      padding: 6px;
+    }
+    .ant-menu-item-selected{
+      /* background-color: #1971e6 !important;  */
+    }
+  }
+
+
+
+  .no-border-input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
